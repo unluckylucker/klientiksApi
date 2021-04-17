@@ -1,9 +1,9 @@
 <?php
 
 class CrmUserClass {
-    private $id_account = '46d74f702922';
-    private $id_user = 'd20b79d92a62';
-    private $token = '9b793e88a2cd4df2a2974b8b58d2a792';
+    private $id_account = '*******';
+    private $id_user = '********';
+    private $token = '********';
 
     function __construct(){
         $this->urlParams = '/a/'.$this->id_account.'/u/'.$this->id_user.'/t/'.$this->token;
